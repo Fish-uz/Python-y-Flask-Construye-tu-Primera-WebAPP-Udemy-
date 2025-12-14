@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarga de Vista Youtube | Frank <>< </title>
+</head>
+<body>
+    <h1>Descarga video de Youtube</h1>
+    <form action="/" method="post">
+        <label for="url">URL de video</label>
+        <input type="text" id="url" name="url" required>
+        <button type="submit">Descargar</button>
+    </form>
+    {% if mensaje %}
+        <p>{{ mensaje }}</p>
+    {%endif%}
+</body>
+</html>
